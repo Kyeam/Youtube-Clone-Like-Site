@@ -6,16 +6,15 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Video Gallery</title>
         <link rel="stylesheet" href="youtube.css">
-        <link rel="stylesheet" href="http://cdnjs.cloudlare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-        
-    </head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      </head>
     <body class="flex">
         <div class="container flex">
             <div class="top flex">
                 <div class="flex">
                     <a href="https://youtube.com">
                         <i class="fa-solid fa-bars"></i>
-                        <img src="img/download-removebg-preview.png" alt="Youtube">
+                        <img src="img/removebg-preview.png" alt="Youtube">
                     </a>
                 </div>
                 <div class="input-div flex">
@@ -31,15 +30,17 @@
                         <div class="logo"><img src="./profile.jpg" alt=""></div>
                         <h3 class="main-vid-title">Crazy girl Animated video||Funny</h3>
                         <div class="extra">
-                            <i onclick="" class="fa fa-thumbs-up"></i>
-                            <i onclick="" class="fa-solid fa-share"></i>
+                            <button><i class="fa-solid fa-thumbs-up"><span>Like</span></i></button>
+                            <div class="space"></div>
+                            <button><i onclick="" class="fa-solid fa-share"><span>Share</span></i></button>
+                            
+                            <button><i onclick="" class="fa-solid fa-bell"><span>Subscribe</span></i></button>
                         </div>
-                        <button>Suscribe<i class="fa-solid fa-bell"></i></button>
-                    </div>
+                           </div>
                  </div>
         
                  <div class="video-list-container">
-                    <div class="list active">
+                    <div class="list video">
                         <video src="img/six.mp4" class="list-video"></video>
                         <h3 class="list-title">Train girl || Alone animation</h3>
                      </div>
